@@ -32,12 +32,12 @@ def findSmallest3(i,j,arr):
     return min([left,center,right])
 
 
-
-arr1 = []
-arr2 = [1,2,3,4,5,6]
-arr3 = [1,1,1,1,1]
-arr4 = [9,2,7,2,9]
-print(findSmallestElement3(arr1))
-print(findSmallestElement3(arr2))
-print(findSmallestElement3(arr3))
-print(findSmallestElement3(arr4))
+if __name__ == "__main__":
+    arr1 = []
+    arr2 = [1,2,3,4,5,6]
+    arr3 = [1,1,1,1,1]
+    arr4 = [9,2,7,2,9]
+    print(findSmallestElement3(arr1))
+    print(findSmallestElement3(arr2))
+    print(findSmallestElement3(arr3))
+    print(findSmallestElement3(arr4))
